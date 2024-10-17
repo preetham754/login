@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            background-color: blue;
+            font-size: 30px;
+            align-items: center;
+        }
+        button{
+            font-size:30px;
+            cursor: pointer;
+        }
+        .panel{
+            background-color: rgb(182, 206,252);
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin: auto;
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    
+    <header align="center">Registration</header><br>
+    <div class="panel">
+    <form action="/action_page.php" align="center">
+        <label for="email" style="font-size:30px;color:rgb(22, 20, 20);">Email:</label>
+      <input id="email"  style="font-size:20px;" required><br><br>
+        <label for="username" style="font-size:30px;color:rgb(27, 25, 25);">Username:</label>
+      <input id="username" type="userame" style="font-size:20px;" required><br><br>
+      <label for="password" style="font-size:30px;color:rgb(17, 17, 17);">Password:</label> 
+      <input id="password" name="password" type="text" style="font-size:20px;" required><br><br>
+      <label for="confirm password" style="font-size:30px;color:rgb(17, 17, 17);">Confirm Password:</label> 
+      <input id="confirm password" name="confirm password" type="text" style="font-size:20px;" required><br><br>
+      <label for="mobile no." style="font-size:30px;color:rgb(5, 5, 5);">Mobile No.:</label>
+      <input id="mobile no."  style="font-size:20px;" required><br><br>
+      <label for="DOB" style="font-size:30px;color:rgb(14, 13, 13);">DOB:</label>
+      <input id="DOB"  style="font-size:20px;" placeholder="dd/mm/yyyy"><br><br>
+      <p style="font-size:30px;color:rgb(17, 17, 17);">Gender:</p>
+      
+      <input type="radio" id="male" name="gender">
+      <label for="male" style="font-size:30px;color:rgb(17, 17, 17);">Male</label>&nbsp;
+      <input type="radio" id="female" name="gender">
+      <label for="female" style="font-size:30px;color:rgb(17, 17, 17);">Female</label><br><br><br>
+        <button type="submit">Register</button>
+        
+    </form></div>
+</body>
+</html>
